@@ -1,6 +1,7 @@
 .image-card {
     width: 25rem;
     position: relative;
+    padding-bottom: 2rem;
 }
 
 .image-container {
@@ -24,7 +25,7 @@
     color: rgb(255, 255, 255);
     font-size: 1rem;
     position: absolute;
-    top:80%;
+    top:60%;
     text-align: right;
     padding-right: 1rem;
     background-color: rgba(0, 0, 0, 0.534);
