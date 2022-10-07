@@ -1,7 +1,7 @@
 .image-card {
-    width: 25rem;
+    width: 20rem;
     position: relative;
-    padding-bottom: 2rem;
+    padding: 2rem;
 }
 
 .image-container {
@@ -12,7 +12,7 @@
 }
 
 .image-container img{
-    width: 25rem;
+    width: 20rem;
     height: 25rem;
     transition: transform 200ms;
 }
@@ -26,6 +26,7 @@
 .image-info {
     color: rgb(255, 255, 255);
     font-size: 1rem;
+    font-weight: 600;
     position: absolute;
     top:70%;
     text-align: right;
