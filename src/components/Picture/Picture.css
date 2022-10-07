@@ -1,0 +1,38 @@
+.image-card {
+    width: 25rem;
+    position: relative;
+}
+
+.image-container {
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.image-container img{
+    width: 25rem;
+    height: 25rem;
+    transition: transform 200ms;
+}
+
+.image-container img:hover{
+    transform: scale(1.1);
+}
+
+
+.image-info {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    position: absolute;
+    top:80%;
+    text-align: right;
+    padding-right: 1rem;
+    background-color: rgba(0, 0, 0, 0.534);
+    width: max-content;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.image-info p{
+    padding-left: 1rem
+}
